@@ -7,3 +7,4 @@
 #-----------------------------------------------------------
 from engine import ClientStream
 client = ClientStream(('localhost', 6000), (320, 240), 15) # Specify TCP address, Size of frame and frame per second variables
+client.stream()
